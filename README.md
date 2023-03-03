@@ -37,3 +37,11 @@ your servers and to give all your users the IP (actually, the DNS name) of
 the load balancer. Creating a load balancer that is highly available and
 scalable is a lot of work. Once again, you can let AWS take care of it for
 you, this time by using Amazon’s Elastic Load Balancer (ELB) service
+
+
+Loops with the count Parameter In Chapter 2, you created an AWS Identity and Access Management (IAM) user by clicking around the Console. Now that you have this user, you can create and manage all future IAM users with Terraform. Consider the following Terraform code, which should live in live/global/iam/main.tf: provider "aws" { region = "us-east-2" } resource "aws_iam_user" "example" { name = "neo" } This code uses the aws_iam_user resource to create a single new IAM user. What if you want to create three IAM users? In a general-purpose programming language, you’d probably use a for-loop:
+
+
+
+
+
