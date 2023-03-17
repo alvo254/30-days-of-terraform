@@ -1,16 +1,8 @@
 # 30-days-of-terraform
 
 ## How to create an azure service principal with contributor access
-Specifically, you will need the following 4 pieces of information (aka Azure API keys):
- - Subscription ID
- - Tenant ID (aka Directory ID)
- - Application ID (aka Client ID)
- - Application Key (aka Client Secret)
+
 - Help full link https://docs.aviatrix.com/HowTos/Aviatrix_Account_Azure.html
-
-
-
-
 
 
 Specifically, you will need the following 4 pieces of information (aka Azure API keys).
