@@ -107,7 +107,7 @@ EOF
 # Required when using a launch configuration with an auto scaling group.
 lifecycle {
 create_before_destroy = true
-}
+  }
 }
 
 Deploying a Load BalancerAt this point, you can deploy your ASG, but you’ll have a small problem:
